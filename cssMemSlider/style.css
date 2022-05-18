@@ -10,20 +10,21 @@ body {
 }
 
 .slider {
-    width: 1100px;
-    height: 600px;
+    width: 496px;
+    height: 310px;
     overflow: hidden;
 }
 
 .middle {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%);
 }
 
 .navigation {
     position: absolute;
+    bottom: 16px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -48,4 +49,16 @@ body {
 input[name="r"] {
     position: absolute;
     visibility: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.pic {
+    height: 310px;
+    width: 496px;
+    border-radius: 10px;
 }
